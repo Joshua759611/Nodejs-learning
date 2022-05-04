@@ -2,7 +2,15 @@ const username = "DevJoshua";
 const password = "1998@Joshua";
 const cluster = "SwahilipotHub";
 const dbname = "sph-database";
-const mongoose =require("mongoose");
+
+//creating connection to mongodb
+const express = require("express");
+const mongoose = require("mongoose");
+const Router = require("./routes")
+
+const app = express();
+
+app.use(express.json());
 
 mongoose.connect(
    `mongodb+srv://DevJoshua:<1998@Joshua>@swahilipothub.f8p1u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`, 
