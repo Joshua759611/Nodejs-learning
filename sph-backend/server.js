@@ -15,7 +15,8 @@ app.use(express.json());
 //mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
 
 mongoose.connect(
-   `mongodb+srv://DevJoshua:Joshua@swahilipothub.f8p1u.mongodb.net/SwahilipotHub?retryWrites=true&w=majority`, 
+   `mongodb+srv://DevJoshua:Joshua@swahilipothub.f8p1u.mongodb.net/SwahilipotHub?
+   retryWrites=true&w=majority`, 
   /*{
     useNewUrlParser: true,
     useFindAndModify: false,

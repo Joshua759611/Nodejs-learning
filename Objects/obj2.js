@@ -1,0 +1,4 @@
+const car ={
+    color:'blue'
+}
+
